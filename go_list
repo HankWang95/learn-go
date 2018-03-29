@@ -1,0 +1,12 @@
+go:
+
+	-指针
+	-if
+	-for
+	-switch
+	-continue
+	-break
+	-goto
+
+linux:
+	ps
