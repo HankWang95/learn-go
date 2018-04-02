@@ -101,4 +101,12 @@ func main() {
 	_if()
 	_break_goto_continue()
 	_zhizhen()
+LABLE4:
+	for i := 0; i < 10; i++ {
+		fmt.Println(i)
+		if i%2 == 0 {
+			i++
+			continue LABLE4
+		}
+	}
 }
